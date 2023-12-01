@@ -415,7 +415,7 @@ p {
 
 /* Category */
 .purple-side.category {
-  width: 20vw;
+  width: 21vw; /* Size */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,7 +431,8 @@ p {
 }
 
 .orange-side.category {
-  width: 20vw;
+  width: 21vw; /* Size */
+  margin-left: -1vw; /* Size */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -744,7 +745,7 @@ p {
 
 .left-menu .close-menu {
   top: 0;
-  right: 100%;
+  right: calc(100% + -20px); /* Move to the right by 20px */
   -webkit-transform: translate(100%, 50%);
       -ms-transform: translate(100%, 50%);
           transform: translate(100%, 50%);
@@ -772,7 +773,7 @@ p {
 
 .right-menu .close-menu {
   top: 0;
-  left: 100%;
+  left: calc(100% + -20px); /* Move to the right by 20px */
   -webkit-transform: translate(-100%, 50%);
       -ms-transform: translate(-100%, 50%);
           transform: translate(-100%, 50%);
